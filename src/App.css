@@ -1,0 +1,68 @@
+
+
+.App {
+  text-align: center;
+  /* background: rgb(26, 25, 25); */
+}
+
+
+
+/*  Page Cards */
+
+.parent {
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.confirmed {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+
+.parent .para,
+.parent .h51,
+.parent .h52,
+.parent .last {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.parent .para,
+.parent .h52 {
+  color: rgb(92, 92, 92);
+}
+
+
+
+/* Page CountryPicker */
+.option {
+  margin-top: 20px;
+  
+}
+
+
+
+
+
+
+
+/*  Page Chart js */
+
+.chart {
+  width: 800px;
+  margin: 40px auto 0px;
+  
+}
